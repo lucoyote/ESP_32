@@ -8,6 +8,8 @@
 #ifndef MAIN_CLEDSTRIP_H_
 #define MAIN_CLEDSTRIP_H_
 
+#include <cstdlib>
+
 class CLedStrip
 {
 public:

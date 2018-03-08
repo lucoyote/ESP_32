@@ -74,5 +74,5 @@ void UDPListenTask::run(void *data)
 
 void UDPListenTask::SetCallback(void* Callback(int,void*))
 {
-	UDPListenTask::_ReadCallback = Callback;
+	//UDPListenTask::_ReadCallback = Callback;
 }

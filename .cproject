@@ -156,6 +156,11 @@
 							</tool>
 						</toolChain>
 					</folderInfo>
+					<fileInfo id="cdt.managedbuild.toolchain.gnu.cygwin.base.374279935.666301324" name="SmartLED.cpp" rcbsApplicability="disable" resourcePath="components/SmartLED.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base.1451941190.1509804676">
+						<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base.1451941190.1509804676" name="Cygwin C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base.1451941190">
+							<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.1868202629" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin"/>
+						</tool>
+					</fileInfo>
 				</configuration>
 			</storageModule>
 			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>

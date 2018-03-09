@@ -13,7 +13,8 @@
 #include "sdkconfig.h"
 
 
-#include "WiFi.h"
+#include <Wifi.h>
+#include "WiFiAPRecord.h"
 #include <esp_event.h>
 #include <esp_event_loop.h>
 #include <esp_log.h>
@@ -30,17 +31,6 @@
 
 
 static const char* LOG_TAG = "WiFi";
-
-
-/*
-static void setDNSServer(char *ip) {
-    ip_addr_t dnsserver;
-    ESP_LOGD(tag, "Setting DNS[%d] to %s", 0, ip);
-    inet_pton(AF_INET, ip, &dnsserver);
-    ESP_LOGD(tag, "ip of DNS is %.8x", *(uint32_t *)&dnsserver);
-    dns_setserver(0, &dnsserver);
-}
-*/
 
 
 /**
